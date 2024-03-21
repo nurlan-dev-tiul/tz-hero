@@ -1,0 +1,39 @@
+.button {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, .8);
+  }
+}
+
+.button_arrow {
+  width: 20%;
+  height: 100%;
+  position: relative;
+  color: var(--color-fff);
+  border-left: 3px solid var(--color-fff);
+
+  .button_arrow_img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width:592px) {
+  .button_arrow {
+    .button_arrow_img {
+      display: block;
+      width: 15px;
+      height: 15px;
+    }
+  }
+}

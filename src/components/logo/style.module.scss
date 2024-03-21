@@ -1,0 +1,14 @@
+.logo {
+  color: var(--color-fff);
+  font-size: 22px;
+  text-transform: uppercase;
+  border-top: 1px solid var(--color-fff);
+  border-bottom: 1px solid var(--color-fff);
+  padding: 1px;
+}
+
+@media screen and (max-width:350px) {
+  .logo {
+    font-size: 18px;
+  }
+}

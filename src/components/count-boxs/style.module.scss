@@ -1,0 +1,44 @@
+.count_box {
+  border-left: 3px solid var(--color-grey);
+  padding-left: 15px;
+
+  .count {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 141.3%;
+    color: var(--color-fff);
+    margin-bottom: 25px;
+  }
+
+  .count_desc {
+    color: var(--color-grey);
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width:990px) {
+  .count_box {
+    .count {
+      font-size: 30px;
+    }
+  
+    .count_desc {
+      font-size: 15px;
+      word-break: break-all;
+    }
+  }
+}
+
+
+@media screen and (max-width:572px) {
+  .count_box {
+    .count {
+      font-size: 16px;
+      margin-bottom: 7px;
+    }
+    .count_desc {
+      font-size: 12px;
+    }
+  }
+}

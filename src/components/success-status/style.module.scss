@@ -1,0 +1,27 @@
+.successStatus {
+  height: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+
+  .successStatus_title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 157.8%;
+    color: var(--color-fff);
+  }
+
+  .successStatus_desc {
+    color: var(--color-fff);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 145%;
+    padding-top: 98px;
+  }
+
+  .logo {
+    position: absolute;
+    right: 33px;
+    bottom: 50px;
+  }
+}

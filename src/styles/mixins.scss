@@ -1,0 +1,11 @@
+@mixin button($width, $height) {
+  height: $height;
+  width: $width;
+  display: flex;
+  justify-content: center;
+  color: var(--color-fff);
+  border-top: 1px solid var(--color-fff);
+  border-bottom: 1px solid var(--color-fff);
+  border-left: 1px solid var(--color-fff);
+  border-right: none;
+}
